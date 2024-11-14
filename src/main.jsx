@@ -5,7 +5,7 @@ import App from './App.jsx'
 import { BrowserRouter } from 'react-router-dom'
 import './navbar.css';    // Navbar component styles
 import './taskform.css';  // TaskForm component styles
-import './taskList.css';  
+import './tasklist.css';  
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
