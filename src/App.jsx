@@ -21,6 +21,7 @@ function App() {
   // Save tasks to localStorage whenever they change
   useEffect(() => {
     localStorage.setItem('tasks', JSON.stringify(tasks));
+    console.log("useffect trier")
   }, [tasks]);
 
   // Add a task
