@@ -62,18 +62,6 @@
   background-color: #3eb3af;
   color: #f4f4f4;
 }
-
-/* Special Style for Add Task Link */
-.addTaskLink {
-  background-color: #ff5722;
-  color: white;
-  font-weight: 500;
-}
-
-.addTaskLink:hover {
-  background-color: #3eb3af;
-}
-
 .taskList {
   width: 100%;
 }

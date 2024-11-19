@@ -9,8 +9,7 @@ function CompletedTasks({ tasks = [], onToggleComplete, onDelete }) {
       ) : (
         <ul className="completedTasksList">
           {completedTasks.map((task) => {
-            console.log("task", task);
-
+            // console.log("task", task);
             return (
               <li key={task.id} className="completedTaskCard">
                 <div className="taskDetails">
@@ -31,7 +30,7 @@ function CompletedTasks({ tasks = [], onToggleComplete, onDelete }) {
                   </button>
                   <button
                     className="taskButton deleteButton"
-                    onClick={() => onDelete(task.id)}
+                    onClick={() => onDelete(task?.id)}
                   >
                     Delete
                   </button>

@@ -52,7 +52,7 @@ function App() {
 
       setCompletedTasks((prevCompletedTasks) => [
         ...prevCompletedTasks,
-        { ...taskToComplete, completed: true },
+        { ...taskToComplete,id: uuidv4(), completed: true },
       ]); 
 
       return prevTasks.filter((task) => task.id !== taskId); 

@@ -9,7 +9,6 @@ function Navbar() {
         <ul className="navLinks">
           <li><Link to="/" className="navLink">Tasks</Link></li>
           <li><Link to="/completed" className="navLink">Completed Tasks</Link></li>
-          <li><Link to="/add" className="navLink addTaskLink">Add Task</Link></li>
         </ul>
       </div>
     </nav>
