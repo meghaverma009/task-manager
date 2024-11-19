@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-
 function Navbar() {
   return (
     <nav className="navbar">
@@ -14,6 +13,7 @@ function Navbar() {
         </ul>
       </div>
     </nav>
+ 
   );
 }
 

@@ -1,14 +1,14 @@
 /* TaskForm Styles */
 form {
   background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
+  padding: 70px;
+  border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 input, textarea {
-  font-size: 16px;
-  margin-bottom: 12px;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 input[type="date"] {
@@ -17,12 +17,12 @@ input[type="date"] {
 
 button[type="submit"] {
   width: 100%;
-  padding: 12px;
+  padding: 20px;
   background-color: #28a745;
   color: white;
-  border-radius: 4px;
+  border-radius: 7px;
   border: none;
-  font-size: 16px;
+  font-size: 20px;
   transition: background-color 0.3s;
 }
 

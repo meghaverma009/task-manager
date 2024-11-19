@@ -1,7 +1,9 @@
 /* TaskList Styles */
 ul {
-  padding: 0;
-  margin-top: 20px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
 }
 
 li {
@@ -62,4 +64,3 @@ li button:last-of-type:hover {
     font-size: 14px;
   }
 }
-  
