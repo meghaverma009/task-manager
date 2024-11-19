@@ -25,7 +25,6 @@
 //   loadCompletedTasksFromLocalStorage || []
 // );
 
-
 //   // Save tasks to localStorage whenever they change
 //   useEffect(() => {
 //     localStorage.setItem("tasks", JSON.stringify(tasks));
@@ -89,7 +88,8 @@
 //               />
 //             }
 //           />
-          {/* <Route
+{
+  /* <Route
   path="/completed"
   element={
     <CompletedTasks
@@ -102,15 +102,18 @@
       }
     />
   }
-/> */}
-{/* <Route path="/completed"
+/> */
+}
+{
+  /* <Route path="/completed"
 element={
   <CompletedTasks
   tasks={tasks}
   onToggleComplete={handleToggleComplete}
   onDelete={handleDelete}
 />
-} */}
+} */
+}
 //         </Routes>
 //       </div>
 //     </>
@@ -236,7 +239,7 @@ element={
 // }
 
 // export default App;
-import { v4 as uuidv4 } from 'uuid';
+import { v4 as uuidv4 } from "uuid";
 import { useEffect, useState } from "react";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
@@ -318,7 +321,10 @@ function App() {
       setCompletedTasks((prevCompletedTasks) =>
         prevCompletedTasks.filter((task) => task.id !== taskId)
       );
-      setTasks((prevTasks)=>[...prevTasks, { ...taskToUndo, completed: false }]);
+      setTasks((prevTasks) => [
+        ...prevTasks,
+        { ...taskToUndo, completed: false },
+      ]);
     }
   };
 
