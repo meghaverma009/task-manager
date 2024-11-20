@@ -9,7 +9,6 @@ function CompletedTasks({ tasks = [], onToggleComplete, onDelete }) {
       ) : (
         <ul className="completedTasksList">
           {completedTasks.map((task) => {
-            // console.log("task", task);
             return (
               <li key={task.id} className="completedTaskCard">
                 <div className="taskDetails">
