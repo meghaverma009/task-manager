@@ -10,7 +10,8 @@ function CompletedTasks({ tasks = [], onToggleComplete, onDelete }) {
         <ul className="completedTasksList">
           {completedTasks.map((task) => {
             return (
-              <li key={task.id} className="completedTaskCard">
+              <li key={task.id}
+              className="completedTaskCard">
                 <div className="taskDetails">
                   <h2 className="taskTitle">{task.title || "Untitled Task"}</h2>
                   <p className="taskDescription">
